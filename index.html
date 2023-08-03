@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"
     <title>Mariolite</title>
 </head>
 <body>
-    
+    <div id="game-container" style="display:none;">
+        <div id="mario"></div>
+        <div id="pipe" style="display:none;"></div>
+        <div id="mushroom" style="display:none;"></div>
+        <p id="score">0</p>
+      </div>
+      
+      <button id="start-btn">Start Game</button>
+      
+      <audio id="background-music" src="background.mp3" loop></audio>
+      <audio id="jump-sound" src="jump.mp3"></audio>
+      <script src="script.js"></script>
 </body>
 </html>
